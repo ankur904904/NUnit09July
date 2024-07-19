@@ -19,7 +19,7 @@ namespace NUnit09July
         public void Test2()
         {
             Thread.Sleep(4000); // Simulate some work
-            Assert.Equals(1, 1);
+            Assert.AreEqual(1, 1);
         }
 
         [Test]
