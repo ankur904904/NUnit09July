@@ -29,6 +29,8 @@ namespace NUnit09July
             Thread.Sleep(4000); // Simulate some work
             Assert.Pass("Test3 completed");
         }
+
+        [Test]
         public void Test4()
         {
             Thread.Sleep(4000); // Simulate some work
